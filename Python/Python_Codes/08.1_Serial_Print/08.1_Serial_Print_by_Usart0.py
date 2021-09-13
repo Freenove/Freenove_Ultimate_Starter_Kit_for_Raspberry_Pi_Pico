@@ -7,7 +7,7 @@ import time
 
 
 
-myUsart0 = UART(0, baudrate=115200, bits=8, tx=Pin(12), rx=Pin(13), timeout=10) 
+myUsart0 = UART(0, baudrate=115200, bits=8, tx=Pin(0), rx=Pin(1), timeout=10) 
 myUsart0.write("Raspberry Pi Pico initialization completed!\r\n")
 
 while True:

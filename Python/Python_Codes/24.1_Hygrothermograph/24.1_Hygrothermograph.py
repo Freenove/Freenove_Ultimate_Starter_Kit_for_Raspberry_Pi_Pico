@@ -9,7 +9,7 @@ time.sleep(1)
 
 while True:
     if dht.measure() == 0:
-        print("DHT11 data error！")
+        print("DHT11 data error!")
         break
     time.sleep(1)
     temperature = dht.temperature()

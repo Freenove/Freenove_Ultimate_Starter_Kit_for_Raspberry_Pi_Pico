@@ -1,7 +1,7 @@
 from hcsr04 import HCSR04
 import time
 
-SR = HCSR04(16, 17)
+SR = HCSR04(18, 19)
 
 time.sleep_ms(2000)
 try:

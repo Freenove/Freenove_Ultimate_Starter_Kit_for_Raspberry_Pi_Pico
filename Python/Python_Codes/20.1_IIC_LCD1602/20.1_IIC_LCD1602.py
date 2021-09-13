@@ -9,7 +9,7 @@ try:
     if devices != []:
         lcd = I2CLcd(i2c, devices[0], 2, 16)
         lcd.move_to(0, 0)
-        lcd.putstr("Hello,world!")
+        lcd.putstr("Hello, world!")
         count = 0
         while True:
             lcd.move_to(0, 1)
