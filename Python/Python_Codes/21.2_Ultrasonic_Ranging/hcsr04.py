@@ -5,7 +5,7 @@ soundVelocity=340
 distance=0
 
 class HCSR04(object):
-    def __init__(self, trig: int=18, echo: int=19):
+    def __init__(self, trig: int=19, echo: int=18):
         self._trigPin = Pin(trig,Pin.OUT,0)
         self._echoPin = Pin(echo,Pin.IN,0)
 
