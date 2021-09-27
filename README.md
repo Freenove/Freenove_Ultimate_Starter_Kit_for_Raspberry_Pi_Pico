@@ -2,7 +2,7 @@
 
 > A Projects Kit for Raspberry Pi Pico.
 
-<img src='Picture/PartsList.jpg' width='60%'/>
+<img src='Picture/PartsList.jpg' width='100%'/>
 
 ### Download
 
