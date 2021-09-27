@@ -13,10 +13,7 @@ try:
         tempK = (1 / (1 / (273.15+25) + (math.log(Rt/10)) / 3950))
         tempC = int(tempK - 273.15)
         print("ADC value:", adcValue, "  Voltage: %0.2f"%voltage,
-              "  Temperature: " + str(tempC) + "℃")
+              "  Temperature: " + str(tempC) + "C")
         time.sleep(1)
 except:
     pass
-
-
-
