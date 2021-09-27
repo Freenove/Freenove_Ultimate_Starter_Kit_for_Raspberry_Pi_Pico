@@ -2,6 +2,8 @@
 
 > A Projects Kit for Raspberry Pi Pico.
 
+<img src='Picture/PartsList.png' width='30%'/>
+
 ### Download
 
 * **Use command in console**
