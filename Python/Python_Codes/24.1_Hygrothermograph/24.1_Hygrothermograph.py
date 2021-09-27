@@ -14,4 +14,4 @@ while True:
     time.sleep(1)
     temperature = dht.temperature()
     humidity = dht.humidity()
-    print("temperature: %0.2f℃  humidity: %0.2f"%(temperature, humidity) + "%")
+    print("temperature: %0.2fC  humidity: %0.2f"%(temperature, humidity) + "%")

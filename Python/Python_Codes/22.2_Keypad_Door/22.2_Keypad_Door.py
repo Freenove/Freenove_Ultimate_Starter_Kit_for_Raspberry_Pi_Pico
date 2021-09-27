@@ -1,11 +1,11 @@
-from myservo import myServo
+from myservo import Servo
 from keypad import KeyPad
 from machine import Pin
 import time
 
 keyPad = KeyPad(13, 12, 11, 10, 9, 8, 7, 6)
-servo = myServo(14)
-servo.myServoWriteAngle(0)
+servo = Servo(0)
+servo.ServoAngle(0)
 activeBuzzer = Pin(15, Pin.OUT)
 
 passWord = "1234"
@@ -28,9 +28,9 @@ while True:
     if len(keyIn) == 4:
         if keyIn == passWord:
             print("passWord right!")
-            servo.myServoWriteAngle(90)
+            servo.ServoAngle(90)
             time.sleep_ms(1000)
-            servo.myServoWriteAngle(0)
+            servo.ServoAngle(0)
         else:
             print("passWord error!")
             activeBuzzer.value(1)

@@ -21,8 +21,8 @@ while True:
                 print('')
                 if reader.select_tag(raw_uid) == reader.OK:#Read card memory capacity
                     key = [0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF]
-                    if reader.auth(reader.AUTH, 2, key, raw_uid) == reader.OK:#Verification card password
-                        print(bytearray(reader.read(2)))
+                    if reader.auth(reader.AUTH, 8, key, raw_uid) == reader.OK:#Verification card password
+                        print(bytearray(reader.read(8)))
                         reader.stop_crypto1()
                     else:
                         print("AUTH ERROR")
