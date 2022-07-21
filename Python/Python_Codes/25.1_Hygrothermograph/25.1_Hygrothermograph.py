@@ -11,7 +11,7 @@ while True:
     if dht.measure() == 0:
         print("DHT11 data error!")
         break
-    time.sleep(1)
+    time.sleep(2)
     temperature = dht.temperature()
     humidity = dht.humidity()
     print("temperature: %0.2fC  humidity: %0.2f"%(temperature, humidity) + "%")

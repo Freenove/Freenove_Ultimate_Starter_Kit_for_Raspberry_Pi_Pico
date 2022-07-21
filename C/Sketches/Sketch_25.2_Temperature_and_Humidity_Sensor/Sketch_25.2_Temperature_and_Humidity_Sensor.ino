@@ -34,5 +34,5 @@ void loop() {
     lcd.setCursor(0, 0);              //set the cursor to column 0, line 1
     lcd.print("DHT11 Data error");
   }
-  delay(1000);
+  delay(2000);
 }

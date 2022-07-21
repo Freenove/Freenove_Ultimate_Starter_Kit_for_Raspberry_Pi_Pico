@@ -25,7 +25,7 @@ try:
         lcd.putstr("Humi: ")
         lcd.putstr(str(humi))
         lcd.putstr(" %")
-        time.sleep(1)
+        time.sleep(2)
 except:
     pass
 

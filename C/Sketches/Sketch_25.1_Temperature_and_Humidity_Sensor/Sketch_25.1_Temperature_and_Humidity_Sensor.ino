@@ -23,5 +23,5 @@ void loop(){
   }else{
     Serial.println("DHT11 Reading data error!");
   }
-  delay(1000);
+  delay(2000);
 }
