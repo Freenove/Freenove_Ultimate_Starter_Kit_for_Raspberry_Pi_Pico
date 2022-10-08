@@ -1,6 +1,6 @@
 ## Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi_Pico
 
-> A Projects Kit for Raspberry Pi Pico.
+> A Projects Kit for Raspberry Pi Pico ( Pico W ).
 
 <img src='Picture/PartsList.jpg' width='100%'/>
 
