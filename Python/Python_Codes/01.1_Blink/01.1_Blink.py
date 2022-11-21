@@ -1,7 +1,8 @@
 from machine import Pin
 import time
 
-led = Pin(25, Pin.OUT)   # create LED object from Pin 25, Set Pin 25 to output
+led = Pin(25, Pin.OUT)   # Pico LED
+#led = Pin("LED", Pin.OUT) # Pico W LED
 
 try:
     while True:
