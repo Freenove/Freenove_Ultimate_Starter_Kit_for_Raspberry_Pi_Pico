@@ -7,16 +7,14 @@
 #include <MPU6050_tockn.h>
 #include <Wire.h>
 
-MbedI2C iic(6,7);
-
-MPU6050 mpu6050(iic);//Attach the IIC
+MPU6050 mpu6050(Wire);//Attach the IIC
 int16_t ax,ay,az;//define acceleration values of 3 axes
 int16_t gx,gy,gz;//define variables to save the values in 3 axes of gyroscope
 
 long timer = 0;
 
 void setup() {
-  iic.begin();
+  Wire.begin();
   Serial.begin(115200);
   mpu6050.begin();               //initialize the MPU6050
   mpu6050.calcGyroOffsets(true); //get the offsets value

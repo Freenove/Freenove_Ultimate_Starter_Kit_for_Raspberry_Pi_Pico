@@ -13,7 +13,7 @@ Servo myservo;              // create servo object to control a servo
 int potVal;                 // variable to read the potValue from the analog pin
 
 void setup() {
-  myservo.attach(servoPin); // attaches the servo on servoPin to the servo object
+  myservo.attach(servoPin, 500, 2500); // attaches the servo on servoPin to the servo object
 }
 
 void loop() {
