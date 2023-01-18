@@ -3,10 +3,10 @@ from machine import I2C, Pin
 from I2C_LCD import I2CLcd
 import dht11
 
-DHT = dht11.DHT11(15)
+DHT = dht11.DHT11(13)
 
 DEFAULT_I2C_ADDR = 0x27 
-i2c = I2C(0, scl=Pin(9), sda=Pin(8), freq=400000)
+i2c = I2C(1, sda=Pin(14), scl=Pin(15), freq=400000)
 lcd = I2CLcd(i2c, DEFAULT_I2C_ADDR, 2, 16)
 time.sleep(1)
 
