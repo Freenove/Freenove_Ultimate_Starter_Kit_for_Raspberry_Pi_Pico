@@ -13,6 +13,18 @@ const char *password_AP     =  "12345678";  //Enter the router password
 
 void setup(){
   Serial.begin(115200);
+  delay(500);
+  Serial.println("\nSetting Station configuration ... ");
+  WiFi.begin(ssid_Router, password_Router);
+  Serial.println(String("Connecting to ")+ ssid_Router);
+  while (WiFi.status() != WL_CONNECTED){
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("\nConnected, IP address: ");
+  Serial.println(WiFi.localIP());
+
+  delay(500);
   Serial.println("Setting soft-AP configuration ... ");
   WiFi.disconnect();
   WiFi.mode(WIFI_AP);
@@ -25,16 +37,7 @@ void setup(){
   }else{
     Serial.println("Failed!");
   }
-  
-  Serial.println("\nSetting Station configuration ... ");
-  WiFi.begin(ssid_Router, password_Router);
-  Serial.println(String("Connecting to ")+ ssid_Router);
-  while (WiFi.status() != WL_CONNECTED){
-    delay(500);
-    Serial.print(".");
-  }
-  Serial.println("\nConnected, IP address: ");
-  Serial.println(WiFi.localIP());
+
   Serial.println("Setup End");
 }
 
