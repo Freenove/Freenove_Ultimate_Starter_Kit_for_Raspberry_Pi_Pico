@@ -63,8 +63,8 @@ class Stepmotor(object):
         for i in range(turns):
             self.moveSteps(direction, 32*64,us)
     
-    def moveAngle(self, angles, us):
-        self.moveSteps(direction, 32*64//angles, us)
+    def moveAngle(self,direction, angles, us):
+        self.moveSteps(direction, (32*64*angles)/360, us)
         
     def stop(self):
         self._motorcontrol(0x00)
