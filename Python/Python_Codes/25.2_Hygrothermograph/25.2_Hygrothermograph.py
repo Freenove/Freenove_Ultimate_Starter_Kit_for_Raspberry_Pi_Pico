@@ -5,9 +5,9 @@ import dht11
 
 DHT = dht11.DHT11(5)
 
-DEFAULT_I2C_ADDR = 0x27 
 i2c = I2C(1, sda=Pin(14), scl=Pin(15), freq=400000)
-lcd = I2CLcd(i2c, DEFAULT_I2C_ADDR, 2, 16)
+devices = i2c.scan()
+lcd = I2CLcd(i2c, devices[0], 2, 16)
 time.sleep(1)
 
 try:
