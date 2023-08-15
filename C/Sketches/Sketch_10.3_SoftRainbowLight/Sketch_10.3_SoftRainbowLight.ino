@@ -6,7 +6,7 @@
 **********************************************************************/
 #include <Adafruit_NeoPixel.h>
 
-#define Pin       16
+#define Pin       15
 #define NumPixels 8
 #define Pin_ADC0  26
 int red = 0;
