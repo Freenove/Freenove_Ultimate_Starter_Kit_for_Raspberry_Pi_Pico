@@ -4,9 +4,9 @@
   Auther      : www.freenove.com
   Modification: 2021/10/13
 **********************************************************************/
-int latchPin = 18;          // Pin connected to ST_CP of 74HC595（Pin12）
-int clockPin = 20;          // Pin connected to SH_CP of 74HC595（Pin11）
-int dataPin =  21;          // Pin connected to DS of 74HC595（Pin14）
+int latchPin = 20;          // Pin connected to ST_CP of 74HC595（Pin12）
+int clockPin = 21;          // Pin connected to SH_CP of 74HC595（Pin11）
+int dataPin =  18;          // Pin connected to DS of 74HC595（Pin14）
 
 // Define the pattern data for a smiling face
 const int smilingFace[] = {                       //"^ⅴ^"
