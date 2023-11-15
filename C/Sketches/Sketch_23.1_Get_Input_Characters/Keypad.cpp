@@ -11,7 +11,7 @@ char keyStrings[4][4] = {
 };
 
 int lastTime = 0;
-int debounceTime = 20;
+int debounceTime = 30;
 
 int pressKeyRow=0;
 int pressKeyCol=0;
@@ -55,4 +55,5 @@ char getKey(bool state){
     else
       return '\0';
   }
+  return '\0';
 }
