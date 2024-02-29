@@ -42,6 +42,10 @@ unsigned char sectorKeyA[16][16] = {
 void setup()
 {
   Serial.begin(115200);
+  SPI.setRX(4);
+  SPI.setCS(5);
+  SPI.setSCK(2);
+  SPI.setTX(3);
   SPI.begin();
   rfid.init();
   Serial.println("Please put the card to the induction area...");
