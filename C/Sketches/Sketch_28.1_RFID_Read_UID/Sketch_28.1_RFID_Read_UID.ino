@@ -25,6 +25,10 @@ unsigned char str[MAX_LEN];  //MAX_LEN is 16: size of the array
 void setup()
 {
   Serial.begin(115200);
+  SPI.setRX(4);
+  SPI.setCS(5);
+  SPI.setSCK(2);
+  SPI.setTX(3);
   SPI.begin();
   rfid.init(); //initialization
   Serial.println("Please put the card to the induction area...");
