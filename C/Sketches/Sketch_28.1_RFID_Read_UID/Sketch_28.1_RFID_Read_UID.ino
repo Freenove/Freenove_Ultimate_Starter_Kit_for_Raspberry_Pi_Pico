@@ -5,7 +5,7 @@
   Modification: 2021/10/13
 **********************************************************************/
 #include <SPI.h>
-#include <RFID.h>
+#include <Freenove_RFID_Lib_for_Pico.h>
 
 /*
    RFID522-SDA:   GP5
@@ -31,6 +31,7 @@ void setup()
   SPI.setTX(3);
   SPI.begin();
   rfid.init(); //initialization
+  delay(3000);
   Serial.println("Please put the card to the induction area...");
 }
 

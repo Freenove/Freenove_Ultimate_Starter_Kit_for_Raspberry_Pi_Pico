@@ -1,9 +1,10 @@
 import time
 from machine import I2C, Pin
 from I2C_LCD import I2CLcd
-import dht11
+from dht11 import DHT11, InvalidChecksum
 
-DHT = dht11.DHT11(5)
+pin = Pin(5, Pin.OUT, Pin.PULL_DOWN)
+dht = DHT11(pin)
 
 i2c = I2C(1, sda=Pin(14), scl=Pin(15), freq=400000)
 devices = i2c.scan()
@@ -12,11 +13,8 @@ time.sleep(1)
 
 try:
     while True:
-        if DHT.measure() == 0:
-            print("DHT11 data error")
-            break
-        temp = int(DHT.temperature())
-        humi = int(DHT.humidity())
+        temp = int(dht.temperature)
+        humi = int(dht.humidity)
         lcd.move_to(0, 0)
         lcd.putstr("Temp: ")
         lcd.putstr(str(temp))
@@ -26,8 +24,9 @@ try:
         lcd.putstr(str(humi))
         lcd.putstr(" %")
         time.sleep(2)
-except:
-    pass
+except InvalidChecksum:
+    print("DHT11 data error!")
+
 
 
 

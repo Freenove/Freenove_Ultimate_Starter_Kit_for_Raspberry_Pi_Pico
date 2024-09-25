@@ -1,17 +1,16 @@
+from machine import Pin
 import time
-import dht11
+from dht11 import DHT11, InvalidChecksum
 
-temperature = 0
-humidity = 0
-
-dht = dht11.DHT11(15)
+pin = Pin(15, Pin.OUT, Pin.PULL_DOWN)
+dht = DHT11(pin)
 time.sleep(1)
 
 while True:
-    if dht.measure() == 0:
+    try:
+        temperature = dht.temperature
+        humidity = dht.humidity
+        print("temperature: {:.02f}C  humidity: {:.02f}".format(temperature, humidity) + "%")    
+        time.sleep(2)
+    except InvalidChecksum:
         print("DHT11 data error!")
-        break
-    time.sleep(2)
-    temperature = dht.temperature()
-    humidity = dht.humidity()
-    print("temperature: %0.2fC  humidity: %0.2f"%(temperature, humidity) + "%")

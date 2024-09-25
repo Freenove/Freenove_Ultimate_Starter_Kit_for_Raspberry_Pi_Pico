@@ -5,7 +5,7 @@
   Modification: 2021/10/13
 **********************************************************************/
 #include <SPI.h>
-#include <RFID.h>
+#include <Freenove_RFID_Lib_for_Pico.h>
 
 //pin5:pin of card reader SDA.  pin6:pin of card reader RST
 RFID rfid(5, 6);
