@@ -2,7 +2,7 @@ import time
 from machine import Pin
 
 relay = Pin(14, Pin.OUT)        
-button = Pin(15, Pin.IN, Pin.PULL_UP) 
+button = Pin(15, Pin.IN) 
 
 def reverseRelay():
     if relay.value():

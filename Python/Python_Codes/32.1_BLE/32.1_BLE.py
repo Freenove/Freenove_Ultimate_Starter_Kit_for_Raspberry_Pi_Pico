@@ -29,7 +29,7 @@ _UART_SERVICE = (
 )
 
 class BLESimplePeripheral:
-    def __init__(self, ble, name="PicoW_BLE"):
+    def __init__(self, ble, name="PicoW"):
         self._ble = ble
         self._ble.active(True)
         self._ble.irq(self._irq)

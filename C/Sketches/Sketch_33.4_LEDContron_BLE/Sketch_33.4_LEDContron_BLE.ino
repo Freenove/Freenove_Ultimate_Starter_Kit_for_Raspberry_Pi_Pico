@@ -46,7 +46,7 @@ void setup(void) {
   pinMode(LED, OUTPUT);
 
   Serial.begin(115200);
-  while(!Serial);
+  delay(2000);
 
   setupBLE("PicoW_BLE");
 }

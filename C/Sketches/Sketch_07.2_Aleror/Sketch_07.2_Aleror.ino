@@ -8,7 +8,7 @@
 #define PIN_BUTTON 16
 
 void setup() {
-  pinMode(PIN_BUTTON, INPUT_PULLUP);
+  pinMode(PIN_BUTTON, INPUT);
   pinMode(PIN_BUZZER, OUTPUT);
 }
 

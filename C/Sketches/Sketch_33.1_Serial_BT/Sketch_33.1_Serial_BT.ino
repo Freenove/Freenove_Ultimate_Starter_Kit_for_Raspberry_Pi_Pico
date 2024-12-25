@@ -5,7 +5,7 @@ void setup() {
   SerialBT.setName("PicoW_BT");//Bluetooth device name
   SerialBT.begin();
   
-  while(!Serial);
+  delay(2000);
   Serial.println("The device started, now you can pair it with bluetooth!");
 
 }

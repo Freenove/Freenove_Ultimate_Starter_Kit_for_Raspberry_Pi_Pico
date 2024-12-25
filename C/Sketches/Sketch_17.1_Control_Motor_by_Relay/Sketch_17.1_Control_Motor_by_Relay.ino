@@ -13,10 +13,11 @@ int lastButtonState = HIGH; // Record the button state of last detection
 long lastChangeTime = 0;    // Record the time point for button state change
 
 void setup() {
-  pinMode(buttonPin, INPUT_PULLUP);           // Set push button pin into input mode
+  pinMode(buttonPin, INPUT);           // Set push button pin into input mode
   pinMode(relayPin, OUTPUT);                  // Set relay pin into output mode
   digitalWrite(relayPin, relayState);         // Set the initial state of relay into "off"
 }
+
 void loop() {
   int nowButtonState = digitalRead(buttonPin);// Read current state of button pin
   // If button pin state has changed, record the time point

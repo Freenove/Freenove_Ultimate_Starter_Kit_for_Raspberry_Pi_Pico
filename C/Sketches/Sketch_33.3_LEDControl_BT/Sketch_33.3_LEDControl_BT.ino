@@ -10,7 +10,7 @@ void setup() {
   SerialBT.begin();
   
   Serial.begin(115200);
-  while(!Serial);
+  delay(2000);
   Serial.println("The device started, now you can pair it with bluetooth!");
 }
 

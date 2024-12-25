@@ -2,7 +2,7 @@ from machine import Pin,PWM
 import math
 import time
 PI = 3.14
-button = Pin(16, Pin.IN, Pin.PULL_UP)
+button = Pin(16, Pin.IN)
 passiveBuzzer = PWM(Pin(15))
 passiveBuzzer.freq(1000)
 

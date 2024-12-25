@@ -4,7 +4,6 @@
 * Auther      : www.freenove.com
 * Modification: 2021/10/13
 **********************************************************************/
-#define LED_BUILTIN 25
 
 // the setup function runs once when you press reset or power the board
 void setup() {

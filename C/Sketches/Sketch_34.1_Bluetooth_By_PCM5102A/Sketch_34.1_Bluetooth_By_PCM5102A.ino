@@ -32,7 +32,7 @@ void playbackCB(void *param, A2DPSink::PlaybackStatus state) {
 
 void setup() {
   Serial.begin(115200);
-  while(!Serial);
+  delay(2000);
   
   Serial.printf("Starting, connect to the PicoW and start playing music\n");
   Serial.printf("Use BOOTSEL to pause/resume playback\n");

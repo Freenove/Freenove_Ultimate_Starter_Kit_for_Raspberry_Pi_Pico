@@ -2,7 +2,7 @@ from machine import Pin
 import time
 
 led = Pin(15, Pin.OUT)                   
-button = Pin(13, Pin.IN, Pin.PULL_UP)    #Create button object from Pin13 , Set GP13 to input
+button = Pin(13, Pin.IN)    #Create button object from Pin13 , Set GP13 to input
 
 try:
     while True:

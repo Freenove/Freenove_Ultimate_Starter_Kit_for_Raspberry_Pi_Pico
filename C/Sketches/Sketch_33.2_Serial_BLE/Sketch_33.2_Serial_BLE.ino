@@ -1,4 +1,4 @@
-#include <BTstasckLib.h> 
+#include <BTstackLib.h> 
 #include <SPI.h>
 #include "btstack.h"
 
@@ -41,7 +41,7 @@ void setupBLE(const char *BLEName){
 
 void setup(void) {
   Serial.begin(115200);
-  while(!Serial);
+  delay(2000);
 
   setupBLE("PicoW_BLE");
 }

@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-button=Pin(16,Pin.IN,Pin.PULL_UP)
+button=Pin(16,Pin.IN)
 activeBuzzer=Pin(15,Pin.OUT)
 activeBuzzer.value(0)
 
