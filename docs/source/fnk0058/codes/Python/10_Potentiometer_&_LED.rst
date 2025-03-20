@@ -4,6 +4,8 @@ Chapter Potentiometer & LED
 
 We have learnt to use ADC in the previous chapter. In this chapter, we will combine PWM and ADC to use potentiometer to control LED, RGBLED and Neopixel.
 
+.. _Soft_Light:
+
 Project Soft Light
 **************************************
 
