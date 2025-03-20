@@ -79,7 +79,7 @@ The circuit of this project is similar to SoftLight. The only difference is that
 Code
 =========================
 
-Codes of this project is logically the same as the project :ref:`Soft Light <Soft_Light>`
+Codes of this project is logically the same as the project :ref:`Soft Light <p_Soft_Light>`
 
 Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "11.1_Photoresistor" and double click "11.1_Photoresistor.py".
 
