@@ -4,7 +4,7 @@ Chapter Buzzer
 
 In this chapter, we will learn about buzzers and the sounds they make.
 
-Project 7.1 Doorbell
+Project Doorbell
 *************************************
 
 We will make this kind of doorbell: when the button is pressed, the buzzer sounds; and when the button is released, the buzzer stops sounding.

@@ -4,7 +4,7 @@ Chapter Control 2D and 3D Figures
 
 In this chapter, we will use Raspberry Pi Pico board to make Processing program control figures to change. And we will control 2D and 3D figures, respectively.
 
-Project 2.1 Ellipse
+Project Ellipse
 ********************************
 
 First, Control a 2D figures.

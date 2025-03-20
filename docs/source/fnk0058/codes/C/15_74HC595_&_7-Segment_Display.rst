@@ -224,11 +224,11 @@ Circuit
    :align: center
    
    * -  Schematic diagram
-   * -  |Chapter14_02|
+   * -  |Chapter15_10|
    * -  Hardware connection. 
        
         :red:`If you need any support, please contact us via:` support@freenove.com
-   * -  |Chapter14_03|
+   * -  |Chapter15_11|
     
 .. |Chapter15_10| image:: ../_static/imgs/14_74HC595_&_LED_Bar_Graph/Chapter15_10.png
 .. |Chapter15_11| image:: ../_static/imgs/14_74HC595_&_LED_Bar_Graph/Chapter15_11.png

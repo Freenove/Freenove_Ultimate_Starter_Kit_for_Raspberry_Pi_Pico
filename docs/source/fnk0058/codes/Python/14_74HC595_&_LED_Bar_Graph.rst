@@ -4,7 +4,7 @@ Chapter 74HC595 & LED Bar Graph
 
 We have used LED Bar Graph to make a flowing water light, in which 10 GPIO ports of Raspberry Pi Pico is occupied. More GPIO ports mean that more peripherals can be connected to Raspberry Pi Pico, so GPIO resource is very precious. Can we make flowing water light with less GPIO? In this chapter, we will learn a component, 74HC595, which can achieve the target.
 
-Project 14.1 Flowing Water Light
+Project Flowing Water Light
 *************************************
 
 Now let us learn how to use the 74HC595 IC Chip to make a flowing water light using less GPIO.

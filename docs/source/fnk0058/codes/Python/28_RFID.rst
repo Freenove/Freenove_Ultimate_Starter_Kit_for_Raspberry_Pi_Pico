@@ -334,7 +334,7 @@ Reference
     
     **SoftSPI.write_readinto(write_buf, read_buf):** Write the bytes from write_buf while reading into read_buf. The buffers can be the same or different, but both buffers must have the same length. Returns None.
 
-Project 28.2 RFID Read and Write
+Project RFID Read and Write
 ****************************************
 
 In this project, we will do reading and writing operations to the card.

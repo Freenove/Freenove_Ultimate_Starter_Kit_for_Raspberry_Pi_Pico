@@ -4,7 +4,7 @@ Chapter Pong Game
 
 We have experienced single-player game snake before. Now, let's use Raspberry Pi Pico to play classic two-player pong game. You will experience both 2D and 3D version.
 
-Project 5.1 Pong Game
+Project Pong Game
 ********************************
 
 First, let's experience the 2D version game.

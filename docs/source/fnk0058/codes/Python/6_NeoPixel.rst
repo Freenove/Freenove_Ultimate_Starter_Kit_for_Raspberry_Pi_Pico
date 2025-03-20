@@ -4,7 +4,7 @@ Chapter NeoPixel
 
 This chapter will help you learn to use a more convenient RGBLED lamp, which requires only one GPIO control and can be connected in infinite series in theory. Each LED can be controlled independently.
 
-Project 6.1 NeoPixel
+Project NeoPixel
 *************************************
 
 Learn the basic usage of NeoPixel and use it to blink red, green, blue and white.

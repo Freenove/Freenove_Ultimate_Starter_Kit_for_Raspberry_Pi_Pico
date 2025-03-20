@@ -100,8 +100,8 @@ Circuit
         :red:`If you need any support, please contact us via:` support@freenove.com
    * -  |Chapter26_08| 
 
-.. |Chapter26_07| image:: ../_static/imgs/25_Hygrothermograph_DHT11/Chapter26_07.png
-.. |Chapter26_08| image:: ../_static/imgs/25_Hygrothermograph_DHT11/Chapter26_08.png
+.. |Chapter26_07| image:: ../_static/imgs/26_Infrared_Motion_Sensor/Chapter26_07.png
+.. |Chapter26_08| image:: ../_static/imgs/26_Infrared_Motion_Sensor/Chapter26_08.png
 
 Sketch
 ============================

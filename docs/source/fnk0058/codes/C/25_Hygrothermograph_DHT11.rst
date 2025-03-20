@@ -29,6 +29,7 @@ Component List
 .. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
 .. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
 .. |Chapter01_10| image:: ../_static/imgs/1_LED/Chapter01_10.png
+.. |Chapter23_08| image:: ../_static/imgs/23_Matrix_Keypad/Chapter23_08.png
 .. |Chapter25_00| image:: ../_static/imgs/25_Hygrothermograph_DHT11/Chapter25_00.png
 .. |Chapter02_01| image:: ../_static/imgs/2_Button_&_LED/Chapter02_01.png
 

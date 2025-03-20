@@ -6,7 +6,7 @@ The biggest difference between the raspberry pi pico and the raspberry pi Pico W
 
 If you have Pico in your hand, please change it to Pico W before continuing to learn.
 
-Project 30.1 Station mode
+Project Station mode
 **********************************
 
 Component List

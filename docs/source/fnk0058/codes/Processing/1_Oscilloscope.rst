@@ -4,7 +4,7 @@ Chapter Oscilloscope
 
 In this chapter, we will make a complex virtual instrument, oscilloscope. Oscilloscope is a widely used electronic test instrument. It can get the electrical signals not directly observed into visible image to facilitate the analysis and study of various electrical signals change process.
 
-Project 1.1 Oscilloscope
+Project Oscilloscope
 ***********************************
 
 Now, let's use Processing and Raspberry Pi Pico board to create an oscilloscope.
