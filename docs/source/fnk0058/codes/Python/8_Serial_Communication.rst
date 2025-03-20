@@ -169,7 +169,7 @@ Reference
     
     When usART0 or USART1 is used, it must be used with the serial port adapter board or serial port device. If not, you may not observe any symptoms.
 
-Project 8.2 Serial Read and Write
+Project Serial Read and Write
 *******************************************
 
 In the following example, we use Raspberry Pi Pico's UART1 to send data to UART0, and read the data received by UART0 and print it out through the "Shell".

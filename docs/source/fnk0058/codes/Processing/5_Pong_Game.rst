@@ -84,7 +84,7 @@ The game will be over when one side reaches three points. Pressing the space bar
 
 Additionally, you can restart the game by pressing the space bar at any time.
 
-Project 5.2 Pong Game 3D
+Project Pong Game 3D
 ***************************
 
 Now, let's experience the 3D version game.

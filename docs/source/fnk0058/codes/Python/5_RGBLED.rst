@@ -177,7 +177,7 @@ For example:
 
     **obj:** list of elements.
 
-Project 5.2 Gradient Color Light
+Project Gradient Color Light
 *******************************************
 
 In the previous project, we have mastered the usage of RGBLED, but the random color display is rather stiff. This project will realize a fashionable Light with soft color changes.

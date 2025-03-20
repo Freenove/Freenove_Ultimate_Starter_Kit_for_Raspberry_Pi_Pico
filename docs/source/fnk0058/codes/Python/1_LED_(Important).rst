@@ -312,7 +312,7 @@ Reference
     
         **Handler:** callback function.
 
-Project 1.2 Blink
+Project Blink
 ******************************
 
 In this project, we will use Raspberry Pi Pico to control blinking a common LED.

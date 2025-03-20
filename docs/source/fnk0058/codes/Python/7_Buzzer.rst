@@ -146,7 +146,7 @@ The following is the program code:
 
 The code is logically the same as using button to control LED. 
 
-Project 7.2 Alertor
+Project Alertor
 ********************************
 
 Next, we will use a passive buzzer to make an alarm.

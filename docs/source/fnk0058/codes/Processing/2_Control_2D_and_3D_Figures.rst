@@ -75,7 +75,7 @@ Then you can change the ellipse shape by shifting the joystick:
 .. image:: ../_static/imgs/2_Control_2D_and_3D_Figures/Chapter02_03.png
     :align: center
 
-Project 2.2 Box 3D
+Project Box 3D
 ************************************
 
 Now control a 3D figure.

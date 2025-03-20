@@ -87,7 +87,7 @@ When the game fails, press space bar to restart the game:
 
 Additionally, you can restart the game by pressing the space bar at any time.
 
-Project 3.2 Snake Game 3D
+Project Snake Game 3D
 *************************************
 
 Now, let's experience the 3D version game.

@@ -279,7 +279,7 @@ Reference
     
     **softAPdisconnect ():** disconnect AP mode.
 
-Project 30.3 AP+Station mode
+Project AP+Station mode
 ***********************************
 
 Component List & Circuit

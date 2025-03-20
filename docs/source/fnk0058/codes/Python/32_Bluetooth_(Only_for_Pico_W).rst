@@ -165,7 +165,7 @@ When the smartphone sends data to the Pico W via BLE Bluetooth, convert the data
     :lines: 75-90
     :dedent:
 
-Project 32.2 Bluetooth Control LED
+Project Bluetooth Control LED
 *******************************************
 
 In this project, we will control an LED via Pico W's Bluetooth function.
