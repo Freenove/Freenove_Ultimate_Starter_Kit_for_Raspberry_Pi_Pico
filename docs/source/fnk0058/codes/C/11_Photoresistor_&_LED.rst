@@ -34,9 +34,9 @@ Component List
 .. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
 .. |Chapter01_10| image:: ../_static/imgs/1_LED/Chapter01_10.png
 .. |Chapter01_11| image:: ../_static/imgs/1_LED/Chapter01_11.png
-.. |Chapter11_00| image:: ../_static/imgs/7_Buzzer/Chapter11_00.png
+.. |Chapter11_00| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_00.png
 .. |Chapter01_12| image:: ../_static/imgs/1_LED/Chapter01_12.png
-.. |Chapter01_13| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter01_13.png
+.. |Chapter01_13| image:: ../_static/imgs/1_LED/Chapter01_13.png
 .. |Chapter02_01| image:: ../_static/imgs/2_Button_&_LED/Chapter02_01.png
 
 Component Knowledge
@@ -84,7 +84,7 @@ The circuit used is similar to the project Soft Light. The only difference is th
 Sketch_Nightlamp
 --------------------------
 
-.. image:: ../_static/imgs/10_Potentiometer_&_LED/Chapter11_05.png
+.. image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_05.png
     :align: center
 
 Download the code to Pico, if you cover the photoresistor or increase the light shining on it, the brightness of the LED changes accordingly. 
