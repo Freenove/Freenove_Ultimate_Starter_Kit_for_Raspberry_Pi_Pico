@@ -102,9 +102,9 @@ Download the code to Pico, if you cover the photoresistor or increase the light 
    * -  Not cover the photoresistor:
    * -  |Chapter11_08|
 
-.. |Chapter11_03| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_06.png
-.. |Chapter11_04| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_07.png
-.. |Chapter11_04| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_08.png
+.. |Chapter11_06| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_06.png
+.. |Chapter11_07| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_07.png
+.. |Chapter11_08| image:: ../_static/imgs/11_Photoresistor_&_LED/Chapter11_08.png
 
 The following is the program code:
 
