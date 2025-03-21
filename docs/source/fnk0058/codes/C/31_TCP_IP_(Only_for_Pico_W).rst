@@ -179,7 +179,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_WiFiClient/Sketch_31.1_WiFiClient.ino    
     :linenos: 
     :language: c
-    :lines: 1-60
+    :lines: 1-59
     :dedent:
 
 Add WiFi function header file.
@@ -278,9 +278,6 @@ Component List
 |                                         |                                          |
 | |Chapter01_08|                          | |Chapter01_09|                           |
 +-----------------------------------------+------------------------------------------+
-
-.. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
-.. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
 
 Circuit
 ============================

@@ -212,7 +212,7 @@ AP_mode
 
 Before the Code runs, you can make any changes to the AP name and password for PICO W in the box as shown in the illustration above. Of course, you can leave it alone by default.
 
-Click "Run current script", :blue:`open the AP function of PICO W and print the access point information. `
+Click "Run current script", :blue:`open the AP function of PICO W and print the access point information.`
 
 .. image:: ../_static/imgs/30_WiFi_Working_Modes_(Only_for_Pico_W)/Chapter30_14.png
     :align: center

@@ -165,11 +165,6 @@ Component List
 | |Chapter03_00|       | |Chapter01_12|   | |Chapter01_13| |
 +----------------------+------------------+----------------+
 
-.. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
-.. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
-.. |Chapter01_10| image:: ../_static/imgs/1_LED/Chapter01_10.png
-.. |Chapter01_12| image:: ../_static/imgs/1_LED/Chapter01_12.png
-.. |Chapter01_13| image:: ../_static/imgs/1_LED/Chapter01_13.png
 .. |Chapter03_00| image:: ../_static/imgs/3_LED_Bar/Chapter03_00.png
 
 Circuit
@@ -210,14 +205,14 @@ Download the code to Pico, and LED bar graph will gradually light up and out fro
 
 The following is the program code: 
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.1_BreathingLight/Sketch_04.1_BreathingLight.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.2_FlowingLight2/Sketch_04.2_FlowingLight2.ino
     :linenos: 
     :language: c
     :dedent:
 
 First, we defined 10 GPIO, 10 PWM channels, and 30 pulse width values.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.1_BreathingLight/Sketch_04.1_BreathingLight.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.2_FlowingLight2/Sketch_04.2_FlowingLight2.ino
     :linenos: 
     :language: c
     :lines: 7-11
@@ -225,7 +220,7 @@ First, we defined 10 GPIO, 10 PWM channels, and 30 pulse width values.
 
 Define a variable to store the number of LEDs and another to control the flashing speed of the LED bar.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.1_BreathingLight/Sketch_04.1_BreathingLight.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.2_FlowingLight2/Sketch_04.2_FlowingLight2.ino
     :linenos: 
     :language: c
     :lines: 13-14
@@ -233,7 +228,7 @@ Define a variable to store the number of LEDs and another to control the flashin
 
 Sizeof() function is used to obtain the number of members of the array ledPins and assign it to ledCount. Use the ‘for' loop to set all pins to output mode.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.1_BreathingLight/Sketch_04.1_BreathingLight.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.2_FlowingLight2/Sketch_04.2_FlowingLight2.ino
     :linenos: 
     :language: c
     :lines: 16-19
@@ -246,7 +241,7 @@ In loop(), a nested for loop is used to control the pulse width of the PWM, and 
 
 In the code, two nested for loops are used to achieve this effect.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.1_BreathingLight/Sketch_04.1_BreathingLight.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.2_FlowingLight2/Sketch_04.2_FlowingLight2.ino
     :linenos: 
     :language: c
     :lines: 23-34

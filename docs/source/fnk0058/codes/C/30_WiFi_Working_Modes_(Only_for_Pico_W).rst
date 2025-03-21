@@ -68,7 +68,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_30.1_WiFi_Station/Sketch_30.1_WiFi_Station.ino    
     :linenos: 
     :language: c
-    :lines: 1-60
+    :lines: 1-29
     :dedent:
 
 Include the WiFi Library header file of Pico W.

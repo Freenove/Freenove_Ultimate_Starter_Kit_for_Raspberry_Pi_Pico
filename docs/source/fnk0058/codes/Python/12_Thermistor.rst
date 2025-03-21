@@ -114,14 +114,14 @@ Click "Run current script" and "Shell" will constantly display the current ADC v
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_Photoresistor/11.1_Photoresistor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/12.1_Thermometer.py
     :linenos: 
     :language: python
     :dedent:
 
 read_u16() function is called to read the value of ADC0. 
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_Photoresistor/11.1_Photoresistor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/12.1_Thermometer.py
     :linenos: 
     :language: python
     :lines: 10-10
@@ -129,7 +129,7 @@ read_u16() function is called to read the value of ADC0.
 
 Convert the read ADC0 value to get the current Thermistor voltage value.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_Photoresistor/11.1_Photoresistor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/12.1_Thermometer.py
     :linenos: 
     :language: python
     :lines: 11-11
@@ -137,7 +137,7 @@ Convert the read ADC0 value to get the current Thermistor voltage value.
 
 The current Thermistor resistance (Rt) is calculated by Ohm's law.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_Photoresistor/11.1_Photoresistor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/12.1_Thermometer.py
     :linenos: 
     :language: python
     :lines: 12-12
@@ -145,7 +145,7 @@ The current Thermistor resistance (Rt) is calculated by Ohm's law.
 
 According to the formula: T2=1/(1/T1+ln(Rt/R)/B), where T1 = 25℃, R = 10KΩ, B = 3950 and the Rt calculated in the previous step, substitute the formula to calculate tempK(T2) . Get the value of the temperature unit K.
  
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_Photoresistor/11.1_Photoresistor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/12.1_Thermometer.py
     :linenos: 
     :language: python
     :lines: 13-13
@@ -153,7 +153,7 @@ According to the formula: T2=1/(1/T1+ln(Rt/R)/B), where T1 = 25℃, R = 10KΩ, B
 
 Finally, tempK (unit: K) is converted to tempC (unit: °C). You can also convert to Fahrenheit based on your needs.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_Photoresistor/11.1_Photoresistor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/12.1_Thermometer.py
     :linenos: 
     :language: python
     :lines: 14-14

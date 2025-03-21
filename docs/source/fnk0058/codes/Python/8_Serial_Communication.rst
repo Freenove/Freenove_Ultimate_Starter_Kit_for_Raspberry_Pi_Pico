@@ -191,8 +191,6 @@ Component List
 |  |Chapter08_15|                                                                    |
 +------------------------------------------------------------------------------------+
 
-.. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
-.. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
 .. |Chapter01_10| image:: ../_static/imgs/1_LED/Chapter01_10.png
 .. |Chapter08_15| image:: ../_static/imgs/8_Serial_Communication/Chapter08_15.png
 

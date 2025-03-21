@@ -91,7 +91,7 @@ You can click the corresponding button to control the LED on and off.
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/29.3_AP+STA_mode/29.3_AP+STA_mode.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/31.1_Control_LED_through_Web/31.1_Control_LED_through_Web.py
     :linenos: 
     :language: python
     :lines: 1-87
@@ -99,7 +99,7 @@ The following is the program code:
 
 Import socket module and Import network module.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/29.3_AP+STA_mode/29.3_AP+STA_mode.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/31.1_Control_LED_through_Web/31.1_Control_LED_through_Web.py
     :linenos: 
     :language: python
     :lines: 3-4
@@ -107,7 +107,7 @@ Import socket module and Import network module.
 
 Enter correct AP name and password.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/29.3_AP+STA_mode/29.3_AP+STA_mode.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/31.1_Control_LED_through_Web/31.1_Control_LED_through_Web.py
     :linenos: 
     :language: python
     :lines: 9-10
@@ -115,7 +115,7 @@ Enter correct AP name and password.
 
 Set PICO W in Station mode and connect it to your router.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/29.3_AP+STA_mode/29.3_AP+STA_mode.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/31.1_Control_LED_through_Web/31.1_Control_LED_through_Web.py
     :linenos: 
     :language: python
     :lines: 12-15
@@ -123,7 +123,7 @@ Set PICO W in Station mode and connect it to your router.
 
 "Shell" displays the IP address assigned to PICO W.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/29.3_AP+STA_mode/29.3_AP+STA_mode.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/31.1_Control_LED_through_Web/31.1_Control_LED_through_Web.py
     :linenos: 
     :language: python
     :lines: 53-53
@@ -131,7 +131,7 @@ Set PICO W in Station mode and connect it to your router.
 
 Click the button on the web page to control the LED light on and off.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/29.3_AP+STA_mode/29.3_AP+STA_mode.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/31.1_Control_LED_through_Web/31.1_Control_LED_through_Web.py
     :linenos: 
     :language: python
     :lines: 68-77

@@ -135,7 +135,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_Display_the_string_on_LCD1602/Sketch_21.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
-    :lines: 1-57
+    :lines: 1-35
     :dedent:
 
 Include header file of Liquid Crystal Display (LCD)1602.

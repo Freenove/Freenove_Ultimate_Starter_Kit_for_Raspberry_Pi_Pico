@@ -205,7 +205,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_22.2_Ultrasonic_Ranging/Sketch_22.2_Ultrasonic_Ranging.ino
     :linenos: 
     :language: c
-    :lines: 1-57
+    :lines: 1-23
     :dedent:
 
 First, add UltrasonicSensor library.

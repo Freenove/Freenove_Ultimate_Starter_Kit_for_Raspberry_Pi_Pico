@@ -28,6 +28,7 @@ Component List
 .. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
 .. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
 .. |Chapter01_10| image:: ../_static/imgs/1_LED/Chapter01_10.png
+.. |Chapter01_11| image:: ../_static/imgs/1_LED/Chapter01_11.png
 .. |Chapter01_12| image:: ../_static/imgs/1_LED/Chapter01_12.png
 .. |Chapter01_13| image:: ../_static/imgs/1_LED/Chapter01_13.png
 .. |Chapter09_00| image:: ../_static/imgs/9_AD_Converter/Chapter09_00.png
@@ -95,7 +96,7 @@ Component List
 |                         |               |                |
 |  |Chapter09_00|         | |Chapter06_00|| |Chapter10_07| |
 +-------------------------+---------------+----------------+
- 
+
 .. |Chapter10_07| image:: ../_static/imgs/10_Potentiometer_&_LED/Chapter10_07.png
 .. |Chapter06_00| image:: ../_static/imgs/6_NeoPixel/Chapter06_00.png
 

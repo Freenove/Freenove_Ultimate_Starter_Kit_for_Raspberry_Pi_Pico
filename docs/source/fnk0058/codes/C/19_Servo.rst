@@ -109,7 +109,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.1_Servo_Sweep/Sketch_19.1_Servo_Sweep.ino
     :linenos: 
     :language: c
-    :lines: 1-49
+    :lines: 1-27
     :dedent:
 
 Servo uses the Servo library, like the following reference to Servo library:
@@ -215,7 +215,7 @@ Sketch_19.2_Control_Servo_by_Potentiometer
 
 Now, write the code to detect the voltage of rotary potentiometer, and control servo to rotate to a different angle according to that. 
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Control_Motor_by_L293D/Sketch_18.1_Control_Motor_by_L293D.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_19.2_Control_Servo_by_Potentiometer/Sketch_19.2_Control_Servo_by_Potentiometer.ino
     :linenos: 
     :language: c
     :lines: 1-24

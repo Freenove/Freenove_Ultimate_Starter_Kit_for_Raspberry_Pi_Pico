@@ -162,9 +162,6 @@ Component List
 | |Chapter01_08|                          | |Chapter01_09|                           |
 +-----------------------------------------+------------------------------------------+
 
-.. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
-.. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
-
 Circuit
 ===========================
 
@@ -540,9 +537,6 @@ Circuit
        
         :red:`If you need any support, please contact us via:` support@freenove.com
    * -  |Chapter33_29| 
-
-.. |Chapter33_28| image:: ../_static/imgs/33_Bluetooth_(Only_for_Pico_W)/Chapter33_28.png
-.. |Chapter33_29| image:: ../_static/imgs/33_Bluetooth_(Only_for_Pico_W)/Chapter33_29.png
 
 Sketch
 =========================

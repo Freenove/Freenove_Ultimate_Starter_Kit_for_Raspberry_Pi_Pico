@@ -70,7 +70,7 @@ Pico's on-board LED lights on and off every 1s, flashing cyclically.
 
 .. note::
     
-    Pico's on-board LED is driven by GPIO25. Pico W's on-board LED uses WL_ GPIO0, which is defined as GPIO32 on Arduino.
+    Pico's on-board LED is driven by GPIO25. Pico W's on-board LED uses WL\_ GPIO0, which is defined as GPIO32 on Arduino.
 
 If you use Pico W, please change "# define LED_BUILTIN 25" to "# define LED_BUILTIN 32" in the code.
 

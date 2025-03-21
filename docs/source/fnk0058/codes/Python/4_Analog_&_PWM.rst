@@ -181,11 +181,6 @@ Component List
 | |Chapter03_00|       | |Chapter01_12|   | |Chapter01_13| |
 +----------------------+------------------+----------------+
 
-.. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
-.. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
-.. |Chapter01_10| image:: ../_static/imgs/1_LED/Chapter01_10.png
-.. |Chapter01_12| image:: ../_static/imgs/1_LED/Chapter01_12.png
-.. |Chapter01_13| image:: ../_static/imgs/1_LED/Chapter01_13.png
 .. |Chapter03_00| image:: ../_static/imgs/3_LED_Bar/Chapter03_00.png
 
 Circuit

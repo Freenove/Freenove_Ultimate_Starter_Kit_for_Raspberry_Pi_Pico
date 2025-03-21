@@ -176,7 +176,6 @@ Component List
 | |Chapter24_00|          |  |Chapter23_11|               |  |Chapter24_12|          |
 +-------------------------+-------------------------------+--------------------------+
 
-.. |Chapter24_00| image:: ../_static/imgs/24_Infrared_Remote/Chapter24_00.png
 .. |Chapter24_10| image:: ../_static/imgs/24_Infrared_Remote/Chapter24_10.png
 .. |Chapter24_11| image:: ../_static/imgs/24_Infrared_Remote/Chapter24_11.png
 .. |Chapter24_12| image:: ../_static/imgs/24_Infrared_Remote/Chapter24_12.png

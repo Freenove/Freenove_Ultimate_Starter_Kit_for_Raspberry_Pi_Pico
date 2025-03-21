@@ -244,7 +244,7 @@ First determine whether the RFID module detects the card. If it does, read the m
 Reference
 ---------------------------------
 
-.. py:funtcion:: Class MFRC522()	
+.. py:function:: Class MFRC522()	
     
     Before each use of mfrcC522 module, please add the statement " **from mfrc522 import MFRC522** " to the top of the python file.
     

@@ -96,7 +96,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_25.1_Temperature_and_Humidity_Sensor/Sketch_25.1_Temperature_and_Humidity_Sensor.ino    
     :linenos: 
     :language: c
-    :lines: 1-79
+    :lines: 1-27
     :dedent:
 
 Before using dht11, we need to include a header file. Apply for a DHT object and define the pin controlling DHT as GP15.
