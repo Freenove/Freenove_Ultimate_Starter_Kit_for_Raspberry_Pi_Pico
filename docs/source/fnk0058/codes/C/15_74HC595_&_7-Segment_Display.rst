@@ -112,6 +112,10 @@ Circuit
 Sketch
 ==================================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/rKvZnijNuDM" frameborder="0" allowfullscreen></iframe>
+
 In this section, the 74HC595 is used in the same way as in the previous section, but with different values transferred. We can learn how to master the digital display by sending the coded value of "0" - "F".
 
 Sketch_7_Segment_Display

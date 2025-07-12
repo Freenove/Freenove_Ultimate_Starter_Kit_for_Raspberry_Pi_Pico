@@ -70,6 +70,10 @@ Circuit
 Sketch
 ===========================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/SVZ9HCmnVQw" frameborder="0" allowfullscreen></iframe>
+
 This code is used to obtain all key codes of the 4x4 matrix keypad, when one of the keys is pressed, the key code will be printed out via serial port.
 
 Sketch_Get_Input_Characters
@@ -184,6 +188,10 @@ Circuit
 
 Sketch
 ==========================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/SVZ9HCmnVQw" frameborder="0" allowfullscreen></iframe>
 
 Sketch_23.2_Keypad_Door
 -----------------------------

@@ -58,6 +58,10 @@ Circuit
 Sketch
 =============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/4elsMkDVhB8" frameborder="0" allowfullscreen></iframe>
+
 Sketch_Softlight
 ------------------------------
 

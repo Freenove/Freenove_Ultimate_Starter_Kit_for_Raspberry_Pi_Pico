@@ -97,6 +97,10 @@ This circuit is the same as the one in project Blink.
 Sketch
 ================================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/h7dZR2cJbk4" frameborder="0" allowfullscreen></iframe>
+
 This project is designed to make PWM output GP15 with pulse width increasing from 0% to 100%, and then reducing from 100% to 0% gradually.
 
 Sketch_BreathingLight
@@ -193,6 +197,10 @@ Circuit
 Sketch
 =============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/h7dZR2cJbk4" frameborder="0" allowfullscreen></iframe>
+
 Meteor flowing light will be implemented with PWM.
 
 Sketch_FlowingLight2
@@ -226,7 +234,7 @@ Define a variable to store the number of LEDs and another to control the flashin
     :lines: 13-14
     :dedent:
 
-Sizeof() function is used to obtain the number of members of the array ledPins and assign it to ledCount. Use the ‘for' loop to set all pins to output mode.
+Sizeof() function is used to obtain the number of members of the array ledPins and assign it to ledCount. Use the 'for' loop to set all pins to output mode.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_04.2_FlowingLight2/Sketch_04.2_FlowingLight2.ino
     :linenos: 

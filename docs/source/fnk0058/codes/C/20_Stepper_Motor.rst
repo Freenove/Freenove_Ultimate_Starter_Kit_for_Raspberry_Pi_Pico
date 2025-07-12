@@ -100,6 +100,10 @@ Circuit
 Sketch
 ==============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/b69tXnzgKVo" frameborder="0" allowfullscreen></iframe>
+
 This code uses the four-step, four-part mode to drive the stepper motor in the clockwise and anticlockwise directions.
 
 Sketch_Drive_Stepper_Motor

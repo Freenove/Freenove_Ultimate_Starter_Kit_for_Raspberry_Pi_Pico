@@ -81,6 +81,10 @@ Circuit
 Sketch
 =============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/bmR9y_7_lIg" frameborder="0" allowfullscreen></iframe>
+
 How to install the library
 ------------------------------
 
@@ -209,6 +213,10 @@ Use caution when supplying power to the Servo, it should be 5V. Make sure you do
 
 Sketch
 =============================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/bmR9y_7_lIg" frameborder="0" allowfullscreen></iframe>
 
 Sketch_19.2_Control_Servo_by_Potentiometer
 ----------------------------------------------

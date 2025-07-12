@@ -83,6 +83,10 @@ Circuit
 Sketch
 ==============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/1L9SKbERWTg" frameborder="0" allowfullscreen></iframe>
+
 This code uses a library named " **Adafruit_NeoPixel** ". If you have not installed it, please do so first.
 
 Library is an important feature of the open source world, and we know that Arduino is an open source platform that everyone can contribute to. Libraries are generally licensed under the LGPL, which means you can use them for free to apply to your creations.
@@ -224,6 +228,11 @@ In the previous project, we have mastered the usage of NeoPixel. This project wi
 
 Sketch
 ===============================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/1L9SKbERWTg" frameborder="0" allowfullscreen></iframe>
+
 
 Continue to use the following color model to equalize the color distribution of the eight LEDs and gradually change.
 

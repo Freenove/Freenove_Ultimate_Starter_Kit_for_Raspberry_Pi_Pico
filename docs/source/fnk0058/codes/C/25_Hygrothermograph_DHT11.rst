@@ -69,6 +69,10 @@ Circuit
 Sketch
 ==========================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/PRCz3jiMTbw" frameborder="0" allowfullscreen></iframe>
+
 How to install the library
 ----------------------------------
 
@@ -173,6 +177,10 @@ Obtain data of Hygrothermograph every second and display them on LCD1602. The fi
 
 Sketch
 ===========================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/PRCz3jiMTbw" frameborder="0" allowfullscreen></iframe>
 
 This code uses the DHT and LiquidCrystal_I2C libraries, so make sure the relevant library files are added before writing the program.
 

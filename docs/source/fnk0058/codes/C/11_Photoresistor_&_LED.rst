@@ -79,6 +79,10 @@ The circuit of this project is similar to SoftLight. The only difference is that
 Sketch
 =========================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/Bshqh_lv3fk" frameborder="0" allowfullscreen></iframe>
+
 The circuit used is similar to the project :ref:`Soft Light <c_Soft_Light>`. The only difference is that the input signal of the ADC0 pin of ADC changes from a potentiometer to a combination of a photoresistor and a resistor.
 
 Sketch_Nightlamp

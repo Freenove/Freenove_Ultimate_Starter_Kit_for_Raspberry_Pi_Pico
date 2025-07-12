@@ -97,6 +97,10 @@ The circuit of this project is similar to the one in the previous chapter. The o
 Sketch
 ===========================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/SRFg59bXV4M" frameborder="0" allowfullscreen></iframe>
+
 Sketch_Thermometer
 -----------------------------
 

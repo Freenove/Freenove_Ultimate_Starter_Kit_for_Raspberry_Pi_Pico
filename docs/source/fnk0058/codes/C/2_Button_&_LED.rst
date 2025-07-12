@@ -93,6 +93,10 @@ Circuit
 Sketch
 =================================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/8DObp2mcwgw" frameborder="0" allowfullscreen></iframe>
+
 This project is designed for learning how to use push button switch to control an LED. We first need to read the state of switch, and then determine whether to turn the LED ON in accordance to the state of the switch.
 
 Upload following sketch:

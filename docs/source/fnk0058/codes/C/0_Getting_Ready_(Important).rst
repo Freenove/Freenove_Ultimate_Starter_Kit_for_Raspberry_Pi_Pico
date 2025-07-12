@@ -4,6 +4,10 @@
 
 Before starting building the projects, you need to make some preparation first, which is so crucial that you must not skip.
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/3M2AwitB1pk" frameborder="0" allowfullscreen></iframe>
+
 .. _Programming:
 
 Programming Software

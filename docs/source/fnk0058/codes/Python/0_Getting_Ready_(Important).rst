@@ -4,6 +4,10 @@
 
 Before starting building the projects, you need to make some preparation first, which is so crucial that you must not skip.
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/fnS6U3DEsLg" frameborder="0" allowfullscreen></iframe>
+
 0.1 Installing Thonny (Important)
 *********************************************
 

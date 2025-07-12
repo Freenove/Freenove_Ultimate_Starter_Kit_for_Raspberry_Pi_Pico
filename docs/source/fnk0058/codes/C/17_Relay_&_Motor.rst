@@ -158,6 +158,10 @@ Circuit
 Sketch 
 ============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/oxMu0wMefSU" frameborder="0" allowfullscreen></iframe>
+
 Use buttons to control the relays and motors.
 
 Sketch_Control_Motor_by_Relay

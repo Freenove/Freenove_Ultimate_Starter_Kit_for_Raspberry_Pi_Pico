@@ -70,6 +70,10 @@ Connect Raspberry Pi Pico to the computer with USB cable.
 Sketch
 ============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/-eY5GHl6i5A" frameborder="0" allowfullscreen></iframe>
+
 Sketch_SerialPrinter
 ------------------------------
 
@@ -116,6 +120,10 @@ From last section, we use serial port on Pico to send data to a computer, now we
 
 Sketch
 ====================================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/-eY5GHl6i5A" frameborder="0" allowfullscreen></iframe>
 
 Sketch_SerialRW
 -------------------------------------

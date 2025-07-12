@@ -74,6 +74,10 @@ Circuit
 Sketch
 ==============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/8Xtbtbn3ajo" frameborder="0" allowfullscreen></iframe>
+
 We need to create three PWM channels and use random duty cycle to make random RGB LED color.
 
 Sketch_ColorfulLight
@@ -138,6 +142,10 @@ Using a color model, the color changes from 0 to 255 as shown below.
 
 Sketch
 ==================================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/8Xtbtbn3ajo" frameborder="0" allowfullscreen></iframe>
 
 In this code, the color model will be implemented and RGBLED will change colors along the model.
 

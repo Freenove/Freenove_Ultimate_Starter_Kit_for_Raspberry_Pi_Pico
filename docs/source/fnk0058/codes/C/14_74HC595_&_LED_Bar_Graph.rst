@@ -103,6 +103,10 @@ Circuit
 Sketch
 ========================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/VHAuqZCI_1E" frameborder="0" allowfullscreen></iframe>
+
 In this project, we will make a flowing water light with a 74HC595 chip to learn about its functions.
 
 Sketch_FlowingLight2

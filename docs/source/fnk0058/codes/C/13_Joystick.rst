@@ -70,6 +70,10 @@ Circuit
 Sketch
 =================================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/pnxFeSMYfa4" frameborder="0" allowfullscreen></iframe>
+
 In this project's code, we will read the ADC values of X and Y axes of the joystick, and read digital quality of the Z axis, then display these out in terminal.
 
 Sketch_Joystick

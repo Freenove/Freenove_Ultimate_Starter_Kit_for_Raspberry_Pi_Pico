@@ -121,6 +121,11 @@ Circuit
 Sketch
 =============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/Wf8tEA9KJMo" frameborder="0" allowfullscreen></iframe>
+
+
 In this project, a buzzer will be controlled by a push button switch. When the button switch is pressed, the buzzer sounds and when the button is released, the buzzer stops. It is analogous to our earlier project that controlled an LED ON and OFF.
 
 Sketch_Doorbell
@@ -190,6 +195,10 @@ Circuit
 
 Sketch
 ===============================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/Wf8tEA9KJMo" frameborder="0" allowfullscreen></iframe>
 
 In this project, the buzzer alarm is controlled by the button. Press the button, then buzzer sounds. If you release the button, the buzzer will stop sounding. It is logically the same as using button to control LED, but in the control method, passive buzzer requires PWM of certain frequency to sound.
 

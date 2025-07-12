@@ -102,6 +102,10 @@ Note that the voltage of ultrasonic module is 5V in the circuit.
 Sketch
 =====================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/5c4x0U6Qp0Y" frameborder="0" allowfullscreen></iframe>
+
 Sketch_Ultrasonic_Ranging
 -----------------------------------
 
@@ -173,6 +177,10 @@ Component List and Circuit are the same as the previous section.
 
 Sketch
 ==============================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/5c4x0U6Qp0Y" frameborder="0" allowfullscreen></iframe>
 
 How to install the library
 ---------------------------------
