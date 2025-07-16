@@ -116,7 +116,7 @@ Sketch_Acceleration_Detection
 .. image:: ../_static/imgs/27_Attitude_Sensor_MPU6050/Chapter27_06.png
     :align: center
 
-Download the code to Pico, open the serial monitor set the baud rate to 115200 and you can use it to measure the distance between the ultrasonic module and the object, as shown in the following picture: 
+Download the code to Pico, open the serial monitor set the baud rate to 115200, as shown in the following picture: 
 
 .. image:: ../_static/imgs/27_Attitude_Sensor_MPU6050/Chapter27_07.png
     :align: center
