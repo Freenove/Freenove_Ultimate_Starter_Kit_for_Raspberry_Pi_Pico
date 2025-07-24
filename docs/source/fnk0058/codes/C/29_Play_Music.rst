@@ -120,6 +120,10 @@ The connection between the control board and the audio module is shown in the fi
 Sketch
 ============================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/JAwSirVNl2M" frameborder="0" allowfullscreen></iframe>
+
 How to install the library
 ----------------------------
 

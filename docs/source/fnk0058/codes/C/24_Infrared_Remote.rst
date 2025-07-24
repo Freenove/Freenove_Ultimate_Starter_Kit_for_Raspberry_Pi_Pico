@@ -90,6 +90,10 @@ Sketch
 
 This sketch uses the infrared receiving tube to receive the value sent form the infrared remote control, and print it out via the serial port.
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/T7J09mZR-v8" frameborder="0" allowfullscreen></iframe>
+
 Sketch_Infrared_Remote_Control
 ------------------------------------------
 
@@ -210,6 +214,10 @@ Sketch
 ==========================
 
 The sketch controls the brightness of the LED by determining the key value of the infrared received.
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/T7J09mZR-v8" frameborder="0" allowfullscreen></iframe>
 
 Sketch_24.2_Control_LED_through_Infrared_Remote
 -----------------------------------------------------

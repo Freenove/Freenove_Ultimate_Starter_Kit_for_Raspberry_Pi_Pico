@@ -250,6 +250,7 @@ Check whether the AP is turned on successfully. If yes, print out IP and MAC add
     :dedent:
 
 Reference
+-------------------------------
 
 .. py:function:: Class AP	
     
@@ -305,6 +306,10 @@ Connect Pico W to the computer using the USB cable.
 
 Sketch
 =============================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/ZW-Cw8s-zWM" frameborder="0" allowfullscreen></iframe>
 
 Sketch_AP_Station_mode
 ----------------------------

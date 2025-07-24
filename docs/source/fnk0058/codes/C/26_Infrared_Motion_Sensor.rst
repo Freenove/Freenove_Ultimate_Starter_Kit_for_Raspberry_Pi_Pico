@@ -108,6 +108,10 @@ Sketch
 
 In this project, we will use the infrared motion sensor to trigger an LED, essentially making the infrared motion sensor act as a motion switch. Therefore, the code is very similar to the earlier project "push button switch and LED". The difference is that, when infrared motion sensor detects change, it will output high level; when button is pressed, it will output low level. When the sensor output high level, the LED turns ON, or it will turn OFF.
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/xjKlZ1G2kEM" frameborder="0" allowfullscreen></iframe>
+
 Sketch_Infrared_Motion_Sensor
 -----------------------------------------
 

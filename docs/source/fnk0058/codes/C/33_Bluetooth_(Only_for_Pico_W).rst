@@ -77,6 +77,10 @@ In default setting, Pico W only enables the ipv4 function of its WiFi. To enable
 .. image:: ../_static/imgs/33_Bluetooth_(Only_for_Pico_W)/Chapter33_01.png
     :align: center
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/8joo2OtuWK0" frameborder="0" allowfullscreen></iframe>
+
 Sketch_Serial_BT
 ---------------------------
 
@@ -179,6 +183,10 @@ you've not installed it yet, please do so by clicking: https://www.appsapk.com/s
 
 Sketch
 ==============================
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/8joo2OtuWK0" frameborder="0" allowfullscreen></iframe>
 
 Sketch_Serial_BT
 -----------------------------

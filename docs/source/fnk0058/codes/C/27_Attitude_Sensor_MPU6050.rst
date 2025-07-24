@@ -105,10 +105,14 @@ The first one: Open Arduino IDE, click Library Manage on the left, search "MPU60
 .. image:: ../_static/imgs/27_Attitude_Sensor_MPU6050/Chapter27_04.png
     :align: center
 
-The second way, open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library. In the pop-up window, find the file named " **./Libraries/MPU6050_tockn-V1.5.2.Zip** " which locates in this directory, and click OPEN.
+The second way, open Arduino IDE, click Sketch **->** Include Library **->** Add .ZIP Library. In the pop-up window, find the file named " **./Libraries/MPU6050_tockn-V1.5.2.Zip** " which locates in this directory, and click OPEN.
 
 .. image:: ../_static/imgs/27_Attitude_Sensor_MPU6050/Chapter27_05.png
     :align: center
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/7QiD7TZtxRI" frameborder="0" allowfullscreen></iframe>
 
 Sketch_Acceleration_Detection
 ------------------------------------------

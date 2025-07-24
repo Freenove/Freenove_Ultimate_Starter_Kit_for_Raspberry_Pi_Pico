@@ -110,6 +110,10 @@ Connect Pico W to the computer using the USB cable.
 Sketch
 ====================
 
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/UxR4xOWEEcE" frameborder="0" allowfullscreen></iframe>
+
 If you have not installed "ControlP5", please follow the following steps to continue the installation, if you have installed, please skip this section.
 
 Open Processing.
@@ -291,6 +295,10 @@ Sketch
 ============================
 
 Before running Sketch, please modify the contents of the box below first. 
+
+.. raw:: html
+
+    <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/UxR4xOWEEcE" frameborder="0" allowfullscreen></iframe>
 
 Sketch_As_Server
 ---------------------------
