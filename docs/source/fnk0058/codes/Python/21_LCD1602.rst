@@ -183,7 +183,7 @@ The second line of LCD1602 continuously prints the number of seconds after the R
 Reference
 -----------------------------
 
-.. py::function:: Class I2CLcd
+.. py:function:: Class I2CLcd
     
     Before each use of the object **I2CLcd** , please make sure that **I2C_LCD.py** and **LCD_API.py** have been uploaded to "/" of Raspberry Pi Pico, and then add the statement " **from I2C_LCD import I2CLcd** " to the top of the python file. 
     

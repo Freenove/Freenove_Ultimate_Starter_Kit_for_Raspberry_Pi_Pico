@@ -120,7 +120,7 @@ Call function keypad.scan() of the keypad module. When the keypad module detects
 Reference
 -------------------------
 
-.. py::function:: Class keypad	
+.. py:function:: Class keypad	
     
     Before each use of the object **KeyPad** , please make sure **keypad.py** has been uploaded to "/" of Raspberry Pi Pico and then add the statement " **from keypad import KeyPad** " to the top of python file.
     
