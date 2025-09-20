@@ -12,19 +12,24 @@ In this section, we learn how to use LCD1602 to display something.
 Component List
 ==========================
 
-+-----------------------------------------+------------------------------------------+
-| Raspberry Pi Pico x1                    | USB Cable x1                             |
-|                                         |                                          |
-| |Chapter01_08|                          | |Chapter01_09|                           |
-+-----------------------------------------+------------------------------------------+
-| Breadboard x1                                                                      |
-|                                                                                    |
-| |Chapter01_10|                                                                     |
-+-----------------------------------------+------------------------------------------+
-| LCD1602 Module x1                       | Jumper                                   |
-|                                         |                                          |
-|  |Chapter21_00|                         | |Chapter21_01|                           |
-+-----------------------------------------+------------------------------------------+
+.. table::
+   :width: 80%
+   :align: center
+   :class: table-line
+   
+   +-----------------------------------------+------------------------------------------+
+   | Raspberry Pi Pico x1                    | USB Cable x1                             |
+   |                                         |                                          |
+   | |Chapter01_08|                          | |Chapter01_09|                           |
+   +-----------------------------------------+------------------------------------------+
+   | Breadboard x1                                                                      |
+   |                                                                                    |
+   | |Chapter01_10|                                                                     |
+   +-----------------------------------------+------------------------------------------+
+   | LCD1602 Module x1                       | Jumper                                   |
+   |                                         |                                          |
+   |  |Chapter21_00|                         | |Chapter21_01|                           |
+   +-----------------------------------------+------------------------------------------+
 
 .. |Chapter01_08| image:: ../_static/imgs/1_LED/Chapter01_08.png
 .. |Chapter01_09| image:: ../_static/imgs/1_LED/Chapter01_09.png
@@ -58,8 +63,9 @@ The serial-to-parallel IC chip used in this module is PCF8574T (PCF8574AT), and 
 Below is the PCF8574 pin schematic diagram and the block pin diagram:
 
 .. list-table::
-   :width: 100%
+   :width: 80%
    :align: center
+   :class: table-line
    
    * -  PCF8574 chip pin diagram
      -  PCF8574 module pin diagram 
@@ -81,18 +87,19 @@ Circuit
 ==========================
 
 .. list-table::
-   :width: 100%
+   :width: 80%
    :align: center
+   :class: table-line
    
    * -  Schematic diagram
-   * -  |Chapter21_07|
+   * -  |Chapter21_19|
    * -  Hardware connection. 
        
         :red:`If you need any support, please contact us via:` support@freenove.com
-   * -  |Chapter21_08| 
+   * -  |Chapter21_20| 
 
-.. |Chapter21_07| image:: ../_static/imgs/21_LCD1602/Chapter21_07.png
-.. |Chapter21_08| image:: ../_static/imgs/21_LCD1602/Chapter21_08.png
+.. |Chapter21_19| image:: ../_static/imgs/21_LCD1602/Chapter21_19.png
+.. |Chapter21_20| image:: ../_static/imgs/21_LCD1602/Chapter21_20.png
 
 Code
 =========================
@@ -149,6 +156,7 @@ Create an I2C object, initialize the I2C parameter configuration, and associate 
 Use the if statement to determine whether the queried I2C device address is empty. If it is not empty, create an I2CLcd object and set the created I2C object, I2C device address, and the number of rows and columns of LCD1602; if it is empty, print out "No address" found" and the program exits.
 
 .. code-block:: C
+    :linenos:
 
     if devices != []:
         lcd = I2CLcd(i2c, devices[0], 2, 16)
