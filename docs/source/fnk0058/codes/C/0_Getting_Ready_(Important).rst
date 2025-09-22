@@ -15,81 +15,69 @@ Programming Software
 
 Arduino Software (IDE) is used to write and upload the code for Arduino Board.
 
-First, install Arduino Software (IDE): visit https://www.arduino.cc, click "Download" to enter the download page.
+First, install Arduino Software (IDE): visit https://www.arduino.cc/en/software/
 
-.. image:: ../_static/imgs/0_Ready/Chapter00_00.png
+.. image:: ../_static/imgs/0_Ready/Preface03.png
     :align: center
 
-Select and download corresponding installer according to your operating system. If you are a windows user, please select the "Windows Installer" to download to install the driver correctly.
+Select and download corresponding installer based on your operating system. If you are a Windows user, please select the "Windows" to download and install the driver correctly.
 
-.. image:: ../_static/imgs/0_Ready/Chapter00_01.png
+.. image:: ../_static/imgs/0_Ready/Preface04.png
     :align: center
 
-After the download completes, run the installer. For Windows users, there may pop up an installation dialog box of driver during the installation process. When it popes up, please allow the installation.
+After the downloading completes, run the installer. For Windows users, there may pop up an installation dialog box of driver during the installation process. When it is popped up, please allow the installation.
 
-After installation is complete, an Arduino Software shortcut will be generated in the desktop. Run the Arduino Software.
+After installation is completed, an shortcut will be generated in the desktop.
 
-.. image:: ../_static/imgs/0_Ready/Chapter00_02.png
+.. image:: ../_static/imgs/0_Ready/Preface05.png
     :align: center
 
-The interface of Arduino Software is as follows:
+Run it. The interface of the software is as follows:
 
-.. image:: ../_static/imgs/0_Ready/Chapter00_03.png
+.. image:: ../_static/imgs/0_Ready/Preface06.png
     :align: center
 
-Programs written with Arduino Software (IDE) are called **sketches** . These sketches are written in the text editor and saved with the file extension. **ino** . The editor has features for cutting/pasting and searching/replacing text. The message area gives feedback while saving and exporting and also displays errors. The console displays text output by the Arduino Software (IDE), including complete error messages and other information. The bottom right-hand corner of the window displays the configured board and serial port. The toolbar buttons allow you to verify, upload, and debug programs, select board & port, and open serial plotter and serial monitor.
+Programs written with Arduino IDE are called sketches. These sketches are written in a text editor and are saved with the file extension.ino. The editor has features for cutting/pasting and for searching/replacing text. The console displays text output by the Arduino IDE, including complete error messages and other information. The bottom right-hand corner of the window displays the configured board and serial port. The toolbar buttons allow you to verify and upload programs, open the serial monitor, and access the serial plotter.
 
-.. list-table:: 
-   :width: 100%
-   :align: center
+.. table::
+    :align: center
+    :class: table-line
+    :width: 80%
+    
+    +-------------+---------------------------------------------------------------------+
+    | |Preface07| | Verify                                                              |
+    |             |                                                                     |
+    |             | Checks your code for errors compiling it.                           |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface08| | Upload                                                              |
+    |             |                                                                     |
+    |             | Compiles your code and uploads it to the configured board.          |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface09| | Debug                                                               |
+    |             |                                                                     |
+    |             | Troubleshoot code errors and monitor program running status.        |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface10| | Serial Plotter                                                      |
+    |             |                                                                     |
+    |             | Real-time plotting of serial port data charts.                      |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface11| | Serial Monitor                                                      |
+    |             |                                                                     |
+    |             | Used for debugging and communication between devices and computers. |
+    +-------------+---------------------------------------------------------------------+
 
-   * -  |Chapter00_04|
-     -  Verify 
-        
-        Check your code for compile errors. 
-
-   * -  |Chapter00_05|
-     -  Upload
-         
-        Compile your code and upload them to the configured board. 
-
-   * -  |Chapter00_06|
-     -  Debug 
-        
-        Test and debug programs in real time.
-
-   * -  |Chapter00_07|
-     -  Select Board & Port 
-        
-        Detected Arduino boards automatically show up here,
-        
-        along with the port number. 
-
-   * -  |Chapter00_08|
-     -  Serial Plotter 
-
-        Open the serial plotter.  
-
-   * -  |Chapter00_09|
-     -  Serial Monitor 
-        
-        Open the serial monitor. 
-
-.. |Chapter00_04| image:: ../_static/imgs/0_Ready/Chapter00_04.png
-.. |Chapter00_05| image:: ../_static/imgs/0_Ready/Chapter00_05.png
-.. |Chapter00_06| image:: ../_static/imgs/0_Ready/Chapter00_06.png
-.. |Chapter00_07| image:: ../_static/imgs/0_Ready/Chapter00_07.png
-.. |Chapter00_08| image:: ../_static/imgs/0_Ready/Chapter00_08.png
-.. |Chapter00_09| image:: ../_static/imgs/0_Ready/Chapter00_09.png
-
-Additional commands are found within the five menus: File, Edit, Sketch, Tools, Help. The menus are context sensitive, which means only those items relevant to the work currently being carried out are available.
+.. |Preface07| image:: ../_static/imgs/0_Ready/Preface07.png
+.. |Preface08| image:: ../_static/imgs/0_Ready/Preface08.png
+.. |Preface09| image:: ../_static/imgs/0_Ready/Preface09.png
+.. |Preface10| image:: ../_static/imgs/0_Ready/Preface10.png
+.. |Preface11| image:: ../_static/imgs/0_Ready/Preface11.png
 
 Installation of Development Board Support Package
 ********************************************************
 
 1.	Make sure your network is of good connection.
 
-2.	Open Arduino IDE, and click File>Preference. In new pop-up window, find "Additional Boards Manager URLs", and replace with a new line：
+2.	Open Arduino IDE, and click File -> Preference. In new pop-up window, find "Additional Boards Manager URLs", and replace with a new line:
 
 https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
 
@@ -122,17 +110,17 @@ If your Pico is new and you want to use Arduino to learn and develop, you need t
 .. image:: ../_static/imgs/0_Ready/Chapter00_13.png
     :align: center
 
-2. Open Arduino IDE. Click File>Examples>01.Basics>Blink.
+2. Open Arduino IDE. Click File -> Examples -> 01.Basics -> Blink.
 
 .. image:: ../_static/imgs/0_Ready/Chapter00_14.png
     :align: center
 
-3. Click Tools>Board>Raspberry Pi RP2040 Boards>Raspberry Pi Pico.
+3. Click Tools -> Board -> Raspberry Pi RP2040 Boards -> Raspberry Pi Pico.
 
 .. image:: ../_static/imgs/0_Ready/Chapter00_15.png
     :align: center
 
-4. Click Tools>Port>UF2 Board.
+4. Click Tools -> Port -> UF2 Board.
 
 .. image:: ../_static/imgs/0_Ready/Chapter00_16.png
     :align: center
@@ -152,7 +140,7 @@ And you can see the indicator on Pico starts to flash.
 .. image:: ../_static/imgs/0_Ready/Chapter00_19.png
     :align: center
 
-5. Click Tools>Port>COMx(Raspberry Pi Pico). X of COMx varies from different computers. Please select the correct one on your computer. In our case, it is COM15. 
+5. Click Tools -> Port -> COMx(Raspberry Pi Pico). X of COMx varies from different computers. Please select the correct one on your computer. In our case, it is COM15. 
 
 .. image:: ../_static/imgs/0_Ready/Chapter00_20.png
     :align: center
