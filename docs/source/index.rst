@@ -36,3 +36,4 @@ This product provides the following online documents.
    fnk0058/codes/C.rst
    fnk0058/codes/Python.rst
    fnk0058/codes/Processing.rst
+   fnk0058/codes/Product_Certification.rst
